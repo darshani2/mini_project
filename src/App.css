@@ -22,13 +22,15 @@
 }
 
 .home {
-  background-image: url('./images/one.jpg');
+  background-image: url('./images/Home3.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #111010;
-  font-size: 100px;
+  color: #ffffff;
+  font-size: 80px;
 }
+
+
 
 .login {
   background-image: url('./images/one.jpg');
@@ -168,11 +170,21 @@
 }
 
 .gallery {
-  background-image: url('./images/one.jpg');
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #111010;
-  font-size: 100px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
 }
+
+.gallery .pics{
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+
 

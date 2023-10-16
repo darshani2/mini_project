@@ -1,0 +1,11 @@
+.foot{
+
+    margin-top: 500px;
+    padding: 40px;
+    background-color: #0bf7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+
+}

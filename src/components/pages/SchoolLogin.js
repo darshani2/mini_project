@@ -54,6 +54,7 @@ function SchoolLogin() {
 
         </div>
         <button type='submit' className='btn'>Log in</button>
+        
         <div className='phg'>
         <p>Don't have an account?</p>
         </div>
