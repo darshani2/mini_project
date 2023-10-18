@@ -10,6 +10,7 @@ import G6 from '../../images/g6.jpg';
 import G7 from '../../images/g7.jpg';
 import G8 from '../../images/g8.jpg';
 import G9 from '../../images/g9.jpg';
+import G10 from '../../images/g10.jpg';
 
 //import CloseIcon from '@mui/icons-material/Close';
 
@@ -50,6 +51,10 @@ const Gallery = () => {
     {
       id: 9,
       imgSrc: G9,
+    },
+    {
+      id: 10,
+      imgSrc: G10,
     },
   ];
 

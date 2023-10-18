@@ -20,8 +20,6 @@
   
 }
 
-
-
 .login {
   background-image: url('./images/one.jpg');
   background-position: center;
@@ -38,23 +36,57 @@
 }
 
 .aboutus {
-  background-image: url('./images/one.jpg');
-  background-position: center;
-  background-size: cover;
+  background-image: url('./images/logo.jpg');
+  background-position: left;
+  background-size: 40%;
   background-repeat: no-repeat;
-  color:#111010;
-  font-size: 100px;
-
+  height: 95vh;
   display: flex;
-  height: 90vh;
-  align-items: center;
   justify-content: center;
+  position: relative;
+  color: #fff;
   
+}
 
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.text-column {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  line-height: 1.5;
+  text-align: center;
+  
+}
+
+.text-column h1 {
+  color: rgb(177, 3, 3);
+  font-weight: bold;
+  line-height: 2.0;
+}
+
+.text-column h3 {
+  color: rgb(1, 1, 32);
+  line-height: 2.0;
+}
+
+.logo-column {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column; 
+}
+
+.logo-column img {
+  max-width: 50%; 
+  display: block; 
+  
 }
 
 .ourmission {
-  background-image: url('./images/one.jpg');
+  background-image: url('./images/mission.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -66,6 +98,12 @@
   align-items: center;
   justify-content: center;
   
+}
+
+.ourmission h1{
+  color: rgb(26, 13, 13);
+  font-weight: bold;
+  line-height: 2.0;
 }
 
 .school {
@@ -105,8 +143,7 @@
    background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
-  
+ 
 }
 
 .border{
@@ -115,7 +152,6 @@
    color: #020000;
    border-radius: 10px;
    padding: 30px 40px;  
-
    
 }
 
