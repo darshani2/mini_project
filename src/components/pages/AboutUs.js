@@ -4,10 +4,10 @@ import '../../App.css';
 export default function AboutUs() {
   return (
     <div className="aboutus">
-      <div className="column logo-column">
-      <img src="./images/logo.jpg" alt="" /> 
-      </div>
-      <div className="column text-column">
+      
+      <img src="./images/logo_new.png" alt="" /> 
+      
+      <div className="text-column">
         <h1>Introducing New Club Logo</h1>
         <h3>Boundary with a circle around it</h3>
         <p>A commitment to social service, without going beyond the<br/>
