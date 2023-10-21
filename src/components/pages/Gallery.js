@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../../App.css';
+import Navbar from './Navbar';
 
 import G1 from '../../images/g1.jpg';
 import G2 from '../../images/g2.jpg';
@@ -68,6 +69,7 @@ const Gallery = () => {
 
   return (
     <>
+    <Navbar/>
       <div className={model ? 'model open' : 'model'}>
         <img src={tempImgSrc} alt={tempImgSrc} />
         

@@ -1,6 +1,7 @@
 
 import React from "react"
 import '../../App.css';
+import Navbar from './Navbar';
 export default function Home() {
 
   const indentStyle = {
@@ -9,7 +10,9 @@ export default function Home() {
 };
 
   return (
-    <div><h1 className="home" style={indentStyle}>
+    <div>
+      <Navbar/>
+      <h1 className="home" style={indentStyle}>
                     Hand 
                     <br/>&nbsp; &nbsp;&nbsp;&nbsp; To
                     <br/>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hand

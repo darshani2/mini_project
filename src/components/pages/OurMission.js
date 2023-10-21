@@ -1,8 +1,11 @@
 import React from "react";
 import '../../App.css';
+import Navbar from './Navbar';
 
 export default function OurMission() {
   return (
+    <>
+    <Navbar/>
     <div className="ourmission">
       <h1>Our Mission</h1>
       <h3>Our mission is to empower and uplift the lives of school children in need. We aim to:</h3>
@@ -18,5 +21,6 @@ export default function OurMission() {
       more promising future.</h4>
       </p>
     </div>
+    </>
   );
 }

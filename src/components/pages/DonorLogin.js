@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import Validation from './LoginValidation';
 import axios from 'axios';
+import Navbar from './Navbar';
 import '../../App.css'
 
 function DonorLogin() {
@@ -36,6 +37,8 @@ function DonorLogin() {
     
 
   return (
+    <>
+    <Navbar/>
     <div className='loginPage'>
         <div className='border'>
             <h2>Sign-In</h2>
@@ -63,6 +66,7 @@ function DonorLogin() {
       </form>
     </div>
     </div>
+    </>
   )
 }
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import Validation from "./SignupValidation";
 import axios from 'axios';
+import Navbar from './Navbar';
 import '../../App.css'
 
 
@@ -30,7 +31,8 @@ const handleSubmit = (event) =>{
     }
 }
   return (
-
+<>
+<Navbar/>
     <div className='signupPage'>
         <div className='border'>
         <h2>Sign-Up</h2>
@@ -65,6 +67,8 @@ const handleSubmit = (event) =>{
       </form>
     </div>
     </div>
+
+    </>
   )
 }
 

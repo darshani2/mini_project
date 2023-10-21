@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+//import Navbar from './components/pages/Navbar';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
@@ -13,32 +13,43 @@ import AboutUs from './components/pages/AboutUs';
 import School from './components/pages/School';
 import OurMission from './components/pages/OurMission';
 import Gallery from './components/pages/Gallery';
-import AdminPage from './components/pages/AdminPage';
-import DonorPage from './components/pages/DonorPage';
-//import SchoolPage from './components/pages/SchoolPage';
+import SchoolPage from './components/sch_page/SchoolPage';
+import DonorPage from './components/donor_page/DonorPage';
+import AdminPage from './components/admin_page/AdminPage';
+import MainPage from './components/pages/MainPage';
 
-//import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      
+      
+      
        <Routes>
+        
         <Route path='/' element={<Home/>} />
         <Route path='/AdminLogin' element={<AdminLogin/>} />
         <Route path='/DonorLogin' element={<DonorLogin/>} />
         <Route path='/SchoolLogin' element={<SchoolLogin/>} />
+        <Route path='/SchoolPage' element={<SchoolPage />} />
         <Route path='/AdminPage' element={<AdminPage/>} />
         <Route path='/DonorPage' element={<DonorPage/>} />
-        <Route path='/Footer' element={<Footer/>} />
-        <Route path='/Admin' element={<Admin/>} />
         <Route path='/Donor' element={<Donor/>} />
+        <Route path='/Admin' element={<Admin/>} />
         <Route path='/School' element={<School/>} />
         <Route path='/AboutUs' element={<AboutUs/>} />
         <Route path='/OurMission' element={<OurMission/>} />
         <Route path='/Gallery' element={<Gallery/>} />
+        <Route path='/MainPage' element={<MainPage />} />
+        <Route path='/SchoolPage' element={<SchoolPage />} />
+        
+        
+        
         </Routes>
+
+        <Footer />
     </Router>
   );
 }

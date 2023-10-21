@@ -1,8 +1,11 @@
 import React from "react";
 import '../../App.css';
+import Navbar from './Navbar';
 
 export default function AboutUs() {
   return (
+    <>
+    <Navbar/>
     <div className="aboutus">
       
       <img src="./images/logo_new.png" alt="" /> 
@@ -33,5 +36,6 @@ export default function AboutUs() {
          service to all those who are in constant need of help.</p>
       </div>
     </div>
+    </>
   );
 }
