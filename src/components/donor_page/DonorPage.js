@@ -5,11 +5,14 @@ import DonNavbar from './DonNavbar';
 
 
 
+
 function DonorPage() {
   return (
-    <div>
+    <div >
       <DonNavbar />
-      <h1>Welcome to the School Home Page</h1>
+      <h1 className="donorpage">
+        Welcome to the Donor Home Page
+        </h1>
       
     </div>
   );

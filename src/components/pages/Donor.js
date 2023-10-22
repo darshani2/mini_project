@@ -22,7 +22,7 @@ const handleSubmit = (event) =>{
     event.preventDefault();
     setErrors(Validation(values));
     if(errors.name === "" && errors.email === "" && errors.password === ""){
-      axios.post('http://localhost:8081/signup1', values)
+      axios.post('http://localhost:8081/gift4kids/signup', values)
       .then(res =>{
         navigate('/');
       } )

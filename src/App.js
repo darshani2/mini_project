@@ -17,6 +17,7 @@ import SchoolPage from './components/sch_page/SchoolPage';
 import DonorPage from './components/donor_page/DonorPage';
 import AdminPage from './components/admin_page/AdminPage';
 import MainPage from './components/pages/MainPage';
+import Makedon from './components/donor_page/Makedon';
 
 
 
@@ -44,7 +45,7 @@ function App() {
         <Route path='/Gallery' element={<Gallery/>} />
         <Route path='/MainPage' element={<MainPage />} />
         <Route path='/SchoolPage' element={<SchoolPage />} />
-        
+        <Route path='/Makedon' element={<Makedon />} />
         
         
         </Routes>

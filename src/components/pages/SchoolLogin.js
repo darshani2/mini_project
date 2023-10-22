@@ -22,7 +22,7 @@ function SchoolLogin() {
         event.preventDefault();
         setErrors(Validation(values));
         if(errors.email === "" && errors.password === ""){
-          axios.post('http://localhost:8081/login1', values)
+          axios.post('http://localhost:8081/gift4kids/signup', values)
           .then(res =>{
             if(res.data === "Success"){
               navigate('/schoolpage');        

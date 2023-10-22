@@ -8,14 +8,14 @@ function AdminNavbar() {
   const closeMobileMenu = () => setClick(false);
 
   const location = useLocation();
-  const isSchoolPage = location.pathname === '/AdminPage'; // Update with the correct path
+  const isSchoolPage = location.pathname === '/AdminPage'; 
 
   return (
     <>
       {isSchoolPage && (
         <nav className='schNavbar'>
           <Link to='/AdminPage' className='navbar_logo' onClick={closeMobileMenu}>
-            School Page
+            Admin Page
             <i className='fab fa-firstdraft' />
           </Link>
           
@@ -49,9 +49,14 @@ function AdminNavbar() {
             <Link to='/donations' className='nav-links' onClick={closeMobileMenu}>
               Donations
             </Link>
+
+            <li className='nav-item'>
+              <Link to='/logout' className='nav-links' onClick={closeMobileMenu}>
+                Logout
+              </Link>
+            </li>
+            
           </li>
-
-
           </ul>
         </nav>
       )}

@@ -38,9 +38,13 @@ function SchNavbar() {
               Received Donations
             </Link>
           </li>
-
-
-          </ul>
+      
+       <li className='nav-item'>
+              <Link to='/logout' className='nav-links' onClick={closeMobileMenu}>
+                Logout
+              </Link>
+            </li>
+            </ul>
         </nav>
       )}
     </>
