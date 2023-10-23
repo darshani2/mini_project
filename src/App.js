@@ -18,7 +18,7 @@ import DonorPage from './components/donor_page/DonorPage';
 import AdminPage from './components/admin_page/AdminPage';
 import MainPage from './components/pages/MainPage';
 import Makedon from './components/donor_page/Makedon';
-
+import MakeReq from './components/sch_page/MakeReq';
 
 
 
@@ -46,7 +46,7 @@ function App() {
         <Route path='/MainPage' element={<MainPage />} />
         <Route path='/SchoolPage' element={<SchoolPage />} />
         <Route path='/Makedon' element={<Makedon />} />
-        
+        <Route path='/MakeReq' element={<MakeReq />} />
         
         </Routes>
 

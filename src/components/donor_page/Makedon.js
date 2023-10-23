@@ -30,8 +30,12 @@ function Makedon() {
                         <input type='email' placeholder='Enter Email' className='form-control' />
                     </div>
                     <div className='mb-3'>
-                        <label htmlFor='phone'><strong>Password</strong></label>
+                        <label htmlFor='phone'><strong>Phone number</strong></label>
                         <input type='text' placeholder='Enter Phone' className='form-control' />
+                    </div>
+                    <div className='mb-3'>
+                        <label htmlFor='nic'><strong>NIC</strong></label>
+                        <input type='text' placeholder='Enter NIC' className='form-control' />
                     </div>
                     <div className='mb-3'>
                         <label htmlFor='item'><strong>Types of Item</strong></label>
@@ -59,7 +63,7 @@ function Makedon() {
                         <label htmlFor='location'><strong>Location</strong></label>
                         <input type='text' placeholder='Enter Location' className='form-control' />
                     </div>
-                    <button className='success'>Donate</button>
+                    <button className='btn'>Donate</button>
                 </form>
             </div>
         </div>

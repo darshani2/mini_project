@@ -28,13 +28,13 @@ function DonNavbar() {
             </li>
 
             <li className='nav-item'>
-            <Link to='/makeRequest' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/makedon' className='nav-links' onClick={closeMobileMenu}>
               Make Donation
             </Link>
           </li>
 
           <li className='nav-item'>
-            <Link to='/receivedDonations' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/donationHis' className='nav-links' onClick={closeMobileMenu}>
               Donation History
             </Link>
           </li>

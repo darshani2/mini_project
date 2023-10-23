@@ -28,7 +28,7 @@ function SchNavbar() {
             </li>
 
             <li className='nav-item'>
-            <Link to='/makeRequest' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/makeReq' className='nav-links' onClick={closeMobileMenu}>
               Make Request
             </Link>
           </li>
