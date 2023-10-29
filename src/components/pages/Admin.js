@@ -62,7 +62,7 @@ const handleSubmit = (event) =>{
         <div className='phg'>
         <p>Already have an account ? </p>
         </div>
-        <Link to="/AdminLogin" className='btn btn--block'>Login</Link>
+        <Link to="/adminNavbar" className='btn btn--block'>Login</Link>
         
 
       </form>

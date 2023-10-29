@@ -4,8 +4,17 @@ import { Link } from 'react-router-dom';
 
 export function Button() {
   return (
-    <Link to='Notification'>
-      <button className='btn'>Notification</button>
+    <ul>
+   
+    <Link to='Donations'>
+      <button className='btn'>Donations</button>
     </Link>
+   
+    
+    <Link to='Requests'>
+    <button className='btn'>Requests</button>
+  </Link>
+ 
+  </ul>
   );
 }

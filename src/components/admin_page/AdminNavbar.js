@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { Button } from '../Button';
 import './AdminNavbar.css';
 
 function AdminNavbar() {
@@ -13,7 +14,7 @@ function AdminNavbar() {
   return (
     <>
       {isSchoolPage && (
-        <nav className='schNavbar'>
+        <nav className='adminNavbar'>
           <Link to='/AdminPage' className='navbar_logo' onClick={closeMobileMenu}>
             Admin Page
             <i className='fab fa-firstdraft' />
@@ -39,25 +40,20 @@ function AdminNavbar() {
             </Link>
           </li>
 
-          <li className='nav-item'>
-            <Link to='/requests' className='nav-links' onClick={closeMobileMenu}>
-              Requests
-            </Link>
-          </li>
-
-          <li className='nav-item'>
-            <Link to='/donations' className='nav-links' onClick={closeMobileMenu}>
-              Donations
-            </Link>
-
-            <li className='nav-item'>
+           <li className='nav-item'>
               <Link to='/logout' className='nav-links' onClick={closeMobileMenu}>
                 Logout
               </Link>
             </li>
             
-          </li>
+            <Button/>
+           
+            
           </ul>
+          
+          
+          
+          
         </nav>
       )}
     </>
