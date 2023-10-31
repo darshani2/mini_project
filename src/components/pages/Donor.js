@@ -61,7 +61,7 @@ const handleSubmit = (event) =>{
         <div className='phg'>
         <p>Already have an account ? </p>
         </div>
-        <Link to="/DonorLogin" className='btn btn--block'>Login</Link>
+        <Link to="/donNavbar" className='btn btn--block'>Login</Link>
         
 
       </form>

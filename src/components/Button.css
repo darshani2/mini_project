@@ -11,6 +11,8 @@
     color: #fff;
     cursor: pointer;
     background-color: var(--primary);
+    margin-right: 15px;
+    margin-top: 17px;
   }
   
   .btn:hover {
@@ -22,4 +24,5 @@
     border: 2px solid var(--primary);
     transition: all 0.3s ease-out;
   }
+
   

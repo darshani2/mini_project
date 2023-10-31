@@ -46,7 +46,7 @@
   align-items: center;
   position: relative;
   color: #070707;
-  background-color: rgb(1, 192, 192);
+  background-color: rgb(189, 245, 245);
   
   
 }
@@ -170,21 +170,23 @@
 }
 
 .donPage {
-  background-image: url('./images/one.jpg');
+  background-image: url('./images/makeReq.jpg');
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   min-height: 90vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
+ 
+  
 }
 
+
 .schPage {
-  background-image: url('./images/one.jpg');
+  background-image: url('./images/makeReq.jpg');
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   min-height: 90vh;
   background-position: center;
@@ -199,6 +201,12 @@
    color: #020000;
    border-radius: 10px;
    padding: 30px 40px;  
+
+  background-color: rgba(146, 104, 104, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .border h2{
@@ -218,7 +226,7 @@
   background: transparent;
   border: none;
   outline: none;
-  border: 2px solid rgba(255, 255, 255, 2);
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 40px;
   font-size: 16px;
   color: #080808;
@@ -231,15 +239,19 @@
   background: transparent;
   border: none;
   outline: none;
-  border: 2px solid rgba(255, 255, 255, 2);
+  border: 2px solid rgba(255, 255, 255, 150);
   border-radius: 40px;
   font-size: 16px;
   color: #080808;
   padding: 20px 35px 20px 20px;
+
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
 
 .mb-3 input:placeholder{
-  color: #fff;
+  color: #494949;
 }
 
 .border .btn {
@@ -379,24 +391,70 @@
 .schoolbg {
   background-image: url('./images/schPage.jpeg');
   background-position: center;
-  background-size: 100%; 
+  background-size: cover; 
   background-repeat: no-repeat;
+  
+}
+
+.schoolbg h1 {
+  
   color: #f80101;
-  font-size: 30px;
-  padding-top: 50px;
+  font-size: 35px;
+  padding-top: 80px;
   padding-left: 280Px;
   display: flex;
-  height: 90vh;
+  height: 40vh;
 }
+.schoolbg h3 {
+  padding-bottom: 250px;
+  padding-left: 280Px;
+  color: #0e0b0b;
+  font-size: 32px;
+  justify-content: left;
+  display: flex;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+
 .donorpage {
   background-image: url('./images/dnewPage.jpg');
   background-position: center;
   background-size: cover; 
   background-repeat: no-repeat;
+  
+}
+
+.donorpage h1 {
+  
   color: #f80101;
-  font-size: 30px;
+  font-size: 35px;
   padding-top: 20px;
   padding-left: 50Px;
+  display: flex;
+  height: 40vh;
+}
+.donorpage h3 {
+  padding-bottom: 250px;
+  padding-left: 65Px;
+  color: #0e0b0b;
+  font-size: 38px;
+  justify-content: left;
+  display: flex;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+
+.adminpage {
+  background-image: url('./images/adminPage.jpg');
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: #f80101;
+  font-size: 40px;
+  padding-top: 170px;
+  padding-left: 430Px;
   display: flex;
   height: 90vh;
 }
