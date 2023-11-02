@@ -34,7 +34,7 @@ function DonNavbar() {
           </li>
 
           <li className='nav-item'>
-            <Link to='/donationHis' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/donHis' className='nav-links' onClick={closeMobileMenu}>
               Donation History
             </Link>
           </li>

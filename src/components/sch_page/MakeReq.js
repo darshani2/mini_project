@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 
 function MakeReq() {
     const { id } = useParams();
-    const [itemType, setItemType] = useState(''); // State to store the selected item type
+    const [itemType, setItemType] = useState(''); 
 
     const handleItemTypeChange = (e) => {
         setItemType(e.target.value);

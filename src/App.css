@@ -178,9 +178,71 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
- 
+}
+
+.donhis {
+  background-image: url('./images/donhis.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   
 }
+.schHis {
+  background-image: url('./images/donhis.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.bor {
+  border: 1px solid #0c0c0c;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #b5e6fc;
+  background-position: center;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #013020;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #080808;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #034485;
+  color: #fff;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
 
 
 .schPage {
@@ -192,7 +254,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .border{

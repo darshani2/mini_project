@@ -19,7 +19,8 @@ import AdminPage from './components/admin_page/AdminPage';
 import MainPage from './components/pages/MainPage';
 import Makedon from './components/donor_page/Makedon';
 import MakeReq from './components/sch_page/MakeReq';
-
+import Donhis from './components/donor_page/Donhis';
+import SchHis from './components/sch_page/SchHis';
 
 
 function App() {
@@ -47,6 +48,8 @@ function App() {
         <Route path='/SchoolPage' element={<SchoolPage />} />
         <Route path='/Makedon' element={<Makedon />} />
         <Route path='/MakeReq' element={<MakeReq />} />
+        <Route path='/Donhis' element={<Donhis />} />
+        <Route path='/SchHis' element={<SchHis />} />
         
         </Routes>
 

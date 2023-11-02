@@ -8,7 +8,7 @@ function SchNavbar() {
   const closeMobileMenu = () => setClick(false);
 
   const location = useLocation();
-  const isSchoolPage = location.pathname === '/SchoolPage'; // Update with the correct path
+  const isSchoolPage = location.pathname === '/SchoolPage'; 
 
   return (
     <>
@@ -34,7 +34,7 @@ function SchNavbar() {
           </li>
 
           <li className='nav-item'>
-            <Link to='/receivedDonations' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/schHis' className='nav-links' onClick={closeMobileMenu}>
               Received Donations
             </Link>
           </li>
